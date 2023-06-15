@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This survey is to gather population data.</p>
+    <form id="survey-form" action="">
+      <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="John Doe" required></label>
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="e.g. @gmail.com" required></label>
+        <label id="number-label" for="number">What is your age?: <input id="number" name="age" min="1" max="100" type="number" placeholder="e.g. 55" required></label>
+        <label id="dropdown-label" for="dropdown">What is your gender?
+          <select id="dropdown" name="gender" required>
+            <option>(select one)</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+            <option>prefer not to say</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <h4>Employment:</h4>
+        </label for="r1"><input id="r1" name="employment" type="radio" value="employed"> Employed<label>
+        </label for="r2"><input id="r2" name="employment" type="radio" value="unemployed"> Unemployed<label>
+      </fieldset>
+      <fieldset>
+        <h4>Languages you can speak: </h4>
+        </label for="c1"><input id="c1" value="english" type="checkbox"> English<label>
+        </label for="c2"><input id="c2" value="spanish" type="checkbox"> Spanish<label>
+        </label for="c3"><input id="c3" value="drench" type="checkbox"> French<label>
+        </label for="c4"><input id="c4" value="german" type="checkbox"> German<label>
+        </label for="c5"><input id="c5" value="mandarin" type="checkbox"> Mandarin<label>
+        </label for="c6"><input id="c6" value="italian" type="checkbox"> Italian<label>
+        </label for="c7"><input id="c7" value="others" type="checkbox"> Others: <input name="others-lang" type="text"><label>
+      </fieldset>
+      <fieldset>
+          <label for="other-comments">Other comments: 
+            <textarea id="other-comments" placeholder="I am happy to share other information."></textarea>
+          </label>
+      </fieldset>
+      <input id="submit" type="submit" name="Submit">
+    </form>
+  </body>
+</html>
