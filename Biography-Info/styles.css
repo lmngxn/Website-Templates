@@ -1,0 +1,52 @@
+* {
+    font-family: verdana;
+  }
+  
+  header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+  }
+  
+  #image {
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  #img-caption {
+    text-align: center;
+  }
+  
+  #tribute-div {
+    background-color: grey;
+    color: white;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  ul {
+    margin: 50px auto;
+    max-width: 80%;
+    line-height: 1.5;
+  }
+  
+  li {
+    margin: 20px auto;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: blue;
+    cursor: pointer;
+  }
