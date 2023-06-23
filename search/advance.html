@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles_advance.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="image.html">image search</a></li>
+            </ul>
+        </nav>
+        <section class="advance">
+            <p class="title">Advanced Search</p>
+            <br><br>
+            <p>Find pages with..</p>
+            <form class="grid" action="https://www.google.com/search">
+                <label for="as_q">all these words:</label><input id="as_q" class="input" required type="text" name="as_q">
+                <label for="as_epq">this exact word or phrase:</label><input id="as_epq" class="input" required type="text" name="as_epq">
+                <label for="as_oq">any of these words:</label><input id="as_oq" class="input" required type="text" name="as_oq">
+                <label for="as_eq">none of these words:</label><input id="as_eq" class="input" required type="text" name="as_eq">
+                <div></div>
+                <div><input class="button" type="submit" value="Advanced Search"></div>
+            </form>
+        </section>
+        <footer>
+            <p>This is a template built by Ming Xuan for Harvard's CS50W assignment</p>
+        </footer>
+    </body>
+</html>
+
